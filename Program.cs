@@ -17,7 +17,7 @@
 
     string rootFolder = Directory.GetParent(oldProjectFolder.TrimEnd(Path.DirectorySeparatorChar))!.FullName;
     await hh1.CreateZipFileAsync(requestedLocation, payLoad.ProjectName, oldProjectFolder);
-    Console.WriteLine($"Created zip file at requested {rootFolder}.  Check this out");
+    Console.WriteLine($"Created zip file at requested {requestedLocation}.  Check this out");
 
 
 
